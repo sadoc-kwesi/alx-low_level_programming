@@ -7,9 +7,9 @@
  */
 int main(void)
 {
-	int s = 0, e = 10;
+	int s = 0, e = 9;
 
-	while (s <= 0)
+	while (s <= e)
 	{
 		putchar(s + '0');
 		s++;
